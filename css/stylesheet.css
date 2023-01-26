@@ -1,0 +1,36 @@
+
+.buttong {
+height: 45px;
+    margin: 46px 0px 14px;
+    text-align: center;
+	margin-top: -2px;
+}
+.buttong input {
+  height: 100%;
+  width: 20%;
+  outline: none;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  background: linear-gradient(135deg, var(--main-blue), var(--main-purple));
+  transition: all 0.3s ease;
+  
+}
+
+.buttong input:hover {
+  background: linear-gradient(-135deg, var(--main-blue), var(--main-purple));
+  
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
