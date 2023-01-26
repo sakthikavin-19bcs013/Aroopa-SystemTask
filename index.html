@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css\animated.css">
+	<link rel="stylesheet" href="css\stylesheet.css">
+	
+    <title>Employee Salary Management</title>
+</head>
+
+<body>
+<div class="container">
+  <div class="title">Employee Registration</div>
+  <form action="connect1.php" method="post">
+    <div class="user__details">
+      <div class="input__box">
+        <span class="details">Employee Name</span>
+        <input type="text" id="Employee_name" name="Employee_name" placeholder="Employee Name" required>
+      </div>
+      <div class="input__box">
+        <span class="details">Date of Birth</span>
+        <input type="Date" id="Date_of_birth" name="Date_of_birth" placeholder="01-01-2002" required>
+      </div>
+      <div class="input__box">
+	  <span class="details">Department</span>
+	  <select class="form-control" id="Department" name="Department">
+		<option class="hidden" value="Software" id="Department" name="Department">Software</option>
+		<option value="Hr" id="Department" name="Department">Hr</option>
+		<option value="Sales" id="Department" name="Department">Sales</option>
+		<option value="Product" id="Department" name="Department">Product</option>
+		</select>
+	  </div>
+	  <div class="input__box">
+        <span class="details">Address1</span>
+        <input type="text" id="Address1" name="Address1" placeholder="Address1" required>
+      </div>
+	  <div class="input__box">
+        <span class="details">Address2</span>
+        <input type="text"  id="Address2" name="Address2" placeholder="Address2" required>
+      </div>
+	  <div class="input__box">
+        <span class="details">E_mail</span>
+        <input type="email" id="E_mail" name="E_mail" placeholder="johnsmith@hotmail.com" required>
+      </div>
+      <div class="input__box">
+        <span class="details">Phone Number</span>
+        <input type="tel" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" id="Phone_number" name="Phone_number" placeholder="9876543210" required>
+      </div>     
+
+	  <div class="input__box">
+	  <span class="details">Martial Status</span>
+	  <select class="form-control" id="Martial_status" name="Martial_status">
+		<option class="hidden" value="Married" id="Martial_status" name="Martial_status">Married</option>
+		<option value="Unmarried" id="Martial_status" name="Martial_status">Unmarried</option>
+		</select>
+	  </div>
+      <div class="input__box">
+        <span class="details">Salary</span>
+        <input type="Number" id="Salary" name="Salary" placeholder="per annum" required>
+      </div>
+       <div class="gender__details" name="Gender">
+      <input type="radio"  id="dot-1" value="Male" name="Gender" >
+      <input type="radio"  id="dot-2" value="Female" name="Gender">
+      <input type="radio"  id="dot-3" value="Others" name="Gender">
+      <span class="gender__title">Gender</span>
+      <div class="category">
+        <label for="dot-1">
+          <span class="dot one"></span>
+          <span>Male</span>
+        </label>
+        <label for="dot-2">
+          <span class="dot two"></span>
+          <span>Female</span>
+        </label>
+        <label for="dot-3">
+          <span class="dot three"></span>
+          <span>Others</span>
+        </label>
+      </div>
+    </div>
+	   </div>
+    <div class="button" style="text-align: center">
+      <input type="submit" name="btnsubmit" value="Register">
+    </div>
+ 
+   
+  </form>
+<div class="buttong">
+      
+	  <a href="gridconnect.php">
+      <input type="submit" name="btnsubmit" value="View"></a>
+	  <a href="cancel.php">
+      <input type="submit" name="btnsubmit" value="Cancel"></a>
+    </div>
+</div>
+
+</body>
+</html>
