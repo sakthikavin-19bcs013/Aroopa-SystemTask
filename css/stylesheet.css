@@ -1,0 +1,25 @@
+
+.buttong {
+height: 45px;
+    margin: 46px 0px 14px;
+    text-align: center;
+	margin-top: -2px;
+}
+.buttong input {
+  height: 100%;
+  width: 20%;
+  outline: none;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  background: linear-gradient(135deg, var(--main-blue), var(--main-purple));
+  transition: all 0.3s ease;
+  
+}
+
+.buttong input:hover {
+  background: linear-gradient(-135deg, var(--main-blue), var(--main-purple));
+  
+}
